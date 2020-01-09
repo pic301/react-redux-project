@@ -2,11 +2,6 @@ import React from "react";
 import PropTypes from 'prop-types'
 import Todo from './Todo'
     
-    //  todo={
-    // text:string.
-    // completed:boolean,
-    //     }
-
 
 const TodoList = () => {
     <Todo key={index} {...todo} onClick={() => onTodoClick(index)}  />
