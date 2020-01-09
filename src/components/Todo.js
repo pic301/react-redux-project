@@ -15,6 +15,3 @@ Todo.propTypes = {
 }
 
 export default Todo;
-
-//Todo Component
-//Todo.propTypes
