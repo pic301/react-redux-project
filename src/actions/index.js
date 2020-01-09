@@ -3,7 +3,7 @@ let nextTodoId = 0
 export const addTodo = text => ({
     type: 'ADD_TODO',
     id: nextTodoId++,
-    text:text,
+    text,
 })
 
 export const setVisibilityFilter = filter => ({
@@ -13,7 +13,7 @@ export const setVisibilityFilter = filter => ({
 
 export const toggleTodo = id => ({
     type: 'TOGGLE_TODO',
-    id:id,
+    id,
 })
 
 export const VisibilityFilters = {
